@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DAM_app</string>
+    <string name="roll">roll</string>
+    <string name="Dice_Rolled">Dice Rolled: </string>
+    <string name="count_up_numara">Count Up (numara)</string>
+    <string name="aici_se_afla_count_la_numerele_extrase">Aici se afla count la numerele extrase</string>
+    <string name="reset">RESET</string>
+    <string name="todo">TODO</string>
+</resources>

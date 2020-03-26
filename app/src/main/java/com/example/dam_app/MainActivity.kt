@@ -22,6 +22,14 @@ class MainActivity : AppCompatActivity() {
         rollButton.setOnClickListener { rollDice() }
         zar_1 = findViewById(R.id.zar_1)
         zar_2 = findViewById(R.id.zar_2)
+
+        val clearButton: Button = findViewById(R.id.clear_button)
+        clearButton.setOnClickListener { clear_dice() }
+    }
+
+    private fun clear_dice(){
+        zar_1.setImageResource(R.drawable.empty_dice)
+        zar_2.setImageResource(R.drawable.empty_dice)
     }
 
     private fun getRandomDiceImage() : Int {

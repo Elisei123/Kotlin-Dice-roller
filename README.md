@@ -1,4 +1,2 @@
-# DAM_app
+# Kotlin-Dice-roller
 
-
-< -- Dice roll -- >
